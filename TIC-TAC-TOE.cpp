@@ -97,35 +97,35 @@ if (espacios[numero]== ' ' ){
 }
 
 bool verificarGanador(char *espacios,char jugador,char computadora){
-if ((espacios[0]!= ' ') && (espacios[0] == [1]) && (espacios[1] == [2])){
+if ((espacios[0]!= ' ') && (espacios[0] == espacios[1]) && (espacios[1] == espacios [2])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[3]!= ' ') && (espacios[3] == [4]) && (espacios[4] == [5])){
+else if ((espacios[3]!= ' ') && (espacios[3] == espacios [4]) && (espacios[4] == espacios [5])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[6]!= ' ') && (espacios[6] == [7]) && (espacios[7] == [8])){
+else if ((espacios[6]!= ' ') && (espacios[6] == espacios [7]) && (espacios[7] == espacios [8])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[0]!= ' ') && (espacios[0] == [3]) && (espacios[3] == [6])){
+else if ((espacios[0]!= ' ') && (espacios[0] == espacios [3]) && (espacios[3] == espacios [6])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[1]!= ' ') && (espacios[1] == [4]) && (espacios[4] == [7])){
+else if ((espacios[1]!= ' ') && (espacios[1] == espacios [4]) && (espacios[4] == espacios [7])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[2]!= ' ') && (espacios[2] == [5]) && (espacios[5] == [8])){
+else if ((espacios[2]!= ' ') && (espacios[2] == espacios [5]) && (espacios[5] == espacios [8])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[0]!= ' ') && (espacios[0] == [4]) && (espacios[4] == [8])){
+else if ((espacios[0]!= ' ') && (espacios[0] == espacios [4]) && (espacios[4] == espacios [8])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
-else if ((espacios[2]!= ' ') && (espacios[2] == [4]) && (espacios[4] == [6])){
+else if ((espacios[2]!= ' ') && (espacios[2] == espacios [4]) && (espacios[4] == espacios [6])){
     espacios[0] == jugador ? cout << "Ganaste!" <<endl : cout << "Perdiste!"<< endl;
 
 }
